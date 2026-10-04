@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title> yiksi.ke</title>
+</head>
+
+<page>
+    <nav class="nav">
+        <div class="logo">
+            <img src="../assets/Yiksi-Official-Logo-01-1024x1024.png" width="100" height="40" alt="Yiksi logo">
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+        <ul class="ul" id="menu">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Services▾</a>
+                <div class="dropdown-menu">
+                    <a href="#payout">Payout Agent Service</a>
+                    <a href="#bulk">Bulk Payment</a>
+                    <a href="#international">International Payments</a>
+                </div>
+            </li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="# How it works">How it works</a></li>
+            <li><a href="# Blog">Blog</a></li>
+            <!-- <li><a href="#signup" class="btn">Sign Up</a></li> -->
+        </ul>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Accept Stablecoins<br> Across Multiple <br>Blockchain Networks</h1>
+            <p>
+                Whether you are launching an exchange, fintech platform, digital wallet, or <br> neobank, our stablecoin
+                API enables seamless connectivity between dollar-<br>pegged digital assets and local fiat currencies.
+            </p>
+            <button class="btn">View API Documentation</button>
+        </div>
+        <img src="../assets/ChatGPT-Image-Jul-16-2026-03_26_58-PM-1 (1).png" alt="Yiksi payments">
+    </section>
+
+    <!-- page one -->
+    <section class="about" id="about">
+
+        <div class="about-text">
+
+            <span class="about-tag">About Us</span>
+
+            <h2>Powering the Future of Global Payments</h2>
+
+            <p class="about-intro">
+                Yiksi Fintech is an on-ramp/off-ramp infrastructure that connects Web3 users
+                to local payment channels across Africa. Seamlessly cash in and cash out
+                your digital assets at your convenient payment channel.
+            </p>
+
+            <!-- Mission -->
+            <div class="about-item">
+
+                <span class="about-icon" aria-hidden="true">
+
+                    <img src="../assets/diomand.png" width="26" height="26" alt="">
+
+                </span>
+
+                <div>
+
+                    <h3>Our Mission</h3>
+
+                    <p>
+                        To simplify digital payments by giving businesses reliable
+                        infrastructure that connects blockchain technology with everyday
+                        financial services.
+                    </p>
+                </div>
+            </div>
+            <!-- Vision -->
+            <div class="about-item">
+
+                <span class="about-icon" aria-hidden="true">
+                 <img src="../assets/diomand.png" width="26" height="26" alt="">
+                </span>
+                <div>
+                    <h3>Our Vision</h3>
+                    <p>
+                        To become a trusted global payment network connecting people,
+                        businesses, digital assets, and local payment systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="about-image">
+
+            <img src="../assets/Group-1000002929-1 (1).png" alt="">
+
+        </div>
+
+    </section>
+    <!-- page two -->
+    <section class="offer" id="offer">
+        <h2>What We Offer</h2>
+
+        <div class="offer-grid">
+
+            <div class="offer-card">
+                <span class="offer-icon" aria-hidden="true">
+                    <!-- Rocket -->
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" 
+                         stroke="#fff" stroke-width="1.5" stroke-linecap="round" 
+                         stroke-linejoin="round">
+                        <path d="M5 15c-1.5 1-2 4-2 6 2 0 5-.5 6-2"/>
+                        <path d="M12 15l-3-3a22 22 0 0 1 2-4 12 12 0 0 1 10-5c0 3-1 8-5 12a22 22 0 0 1-4 2z"/>
+                        <circle cx="15.5" cy="8.5" r="1.5"/>
+                        <path d="M9 12H4s.5-3 2-4c1.5-.5 3 0 3 0"/>
+                        <path d="M12 15v5s3-.5 4-2c.5-1.5 0-3 0-3"/>
+                    </svg>
+                </span>
+                <h3>Fast Integration</h3>
+                <p>Integrate stablecoin features in weeks, not months</p>
+            </div>
+
+            <div class="offer-card">
+                <span class="offer-icon" aria-hidden="true">
+                    <!-- Diamond -->
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 3h12l4 6-10 12L2 9z"/>
+                        <path d="M2 9h20"/>
+                        <path d="M8 9l4 12 4-12"/>
+                        <path d="M9 3l-1 6M15 3l1 6"/>
+                    </svg>
+                </span>
+                <h3>Ready Infrastructure</h3>
+                <p>Use production-ready backend without building from scratch</p>
+            </div>
+
+            <div class="offer-card">
+                <span class="offer-icon" aria-hidden="true">
+                    <!-- Pie chart -->
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a9 9 0 1 0 9 9h-9z"/>
+                        <path d="M15 3.5A9 9 0 0 1 20.5 9H15z"/>
+                    </svg>
+                </span>
+                <h3>Focus on Growth</h3>
+                <p>Spend time on your product while the API handles complexity</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- page three -->
+    <section class="insights">
+        <div class="heading">
+            <h2>Latest Insights</h2>
+            <p>
+                Stay updated with the latest in stablecoins, payments, and fintech.
+                Explore guides, product updates, and industry insights from the Yiksi Fintech.
+            </p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="../assets/e664d11da1301c1146a0f5a13c99461d-2 (1).jpg" alt="Multi-chain payments">
+
+                <div class="card-content">
+                    <h3>How Multi-Chain Payments Simplify Global Business</h3>
+
+                    <p>
+                        See how businesses can accept payments from multiple
+                        blockchain networks through one API.
+                    </p>
+
+                    <a href="#">READ MORE »</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../assets/ae3153e8a56b1733aa8c70822241ec3d-1-1-e1784206162617.jpg" alt="Yiksi Fintech">
+
+                <div class="card-content">
+                    <h3>Getting Started with Yiksi Fintech</h3>
+
+                    <p>
+                        Learn how to integrate Yiksi Fintech and start accepting
+                        stablecoin payments in minutes. Introduction As businesses
+                        expand globally, accepting payments.
+                    </p>
+
+                    <a href="#">READ MORE »</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="../assets/2f8ee03a4d2a19b4b63dfe9d8d28e16e.jpg" alt="Stablecoin payments">
+
+                <div class="card-content">
+                    <h3>Why Stablecoin Payments Are Growing Worldwide</h3>
+
+                    <p>
+                        Discover how stablecoins are transforming cross-border
+                        payments and digital commerce.
+                    </p>
+
+                    <a href="#">READ MORE »</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="faq-section">
+
+        <div class="faq-content">
+
+            <h2>Got Questions? We've<br>Got Answers!</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What is Yiksi Fintech?</span>
+                    <span>⌃</span>
+                </div>
+
+                <p>
+                    Yiksi Fintech enables businesses to accept stablecoin payments,
+                    automate settlements, and integrate blockchain-powered financial
+                    services through a single API.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Which blockchains are supported?</span>
+                    <span>⌄</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>How long does integration take?</span>
+                    <span>⌄</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="faq-image">
+            <img src="../assets/ChatGPT-Image-Jul-18-2026-03_39_13-PM-1-768x768.png" alt="Frequently Asked Questions">
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Logo + Description -->
+            <div class="footer-about">
+
+                <div class="footer-logo">
+                    <img src="../assets/Yiksi-Official-Logo-01-1024x1024.png" width="70" height="70"
+                        alt="Yiksi Fintech Logo">
+                </div>
+
+                <p>
+                    Yiksi Fintech is an on-ramp/off-ramp
+                    infrastructure that connects Web3 users to
+                    local payment channels across Africa.
+                    Seamlessly cash in and cash out your digital
+                    assets at your convenient payment channel.
+                </p>
+
+            </div>
+
+
+            <!-- Company -->
+            <div class="footer-column">
+
+                <h3>Company</h3>
+
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#">API Documentation</a>
+                <a href="#">How It Works</a>
+                <a href="#">FAQs</a>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div class="footer-column contact">
+
+                <h3>Contact</h3>
+
+                <div class="contact-item">
+                    <span><i class="fa-solid fa-phone"></i></span>
+
+                    <div>
+                        <strong>Phone</strong>
+                        <p>+27 84 996 0564</p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <span>✉</span>
+
+                    <div>
+                        <strong>Email</strong>
+                        <p>support@yiksi.ke</p>
+                    </div>
+                </div>
+
+
+                <div class="contact-item">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+
+                    <div>
+                        <strong>Location</strong>
+                        <p>
+                            No 1 Bridgeway Road, Bridgeways Precinct
+                            Century City, Cape Town, Western Cape, 7441
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Back to Top -->
+        <button id="backToTop">↑</button>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
